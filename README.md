@@ -95,7 +95,7 @@ I am currently seeking an **internship, fresher, or junior role** as a **Web Dev
 
 ## 📫 Contact Me
 
-- GitHub: https://github.com/jasonvuong20032]
+- GitHub: https://github.com/jasonvuong20032
 - Email: [jasonvuong1512@gmail.com]
 
 ---
