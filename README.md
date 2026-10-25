@@ -92,6 +92,11 @@ Academic and self-built projects are listed under [Projects](#-projects) below.
 
 | Certificate | Issuer | Date | Verify |
 |---|---|---|---|
+| [CS50's Introduction to Programming with Python](https://github.com/jasonvuong20032/certificate-portfolio#1-cs50s-introduction-to-programming-with-python-cs50p) | Harvard University (CS50) | 2026 | [Verify](https://cs50.harvard.edu/certificates/a8743d2b-c34a-4c6c-b58d-bf0da919654f) |
+| [SQL (Intermediate)](https://github.com/jasonvuong20032/certificate-portfolio#2-sql-intermediate) | HackerRank | 29 Mar 2026 | [Verify](https://www.hackerrank.com/certificates/f6708c1d8d4b) |
+| [SQL (Basic)](https://github.com/jasonvuong20032/certificate-portfolio#3-sql-basic) | HackerRank | 29 Mar 2026 | [Verify](https://www.hackerrank.com/certificates/f2cf09ae31e4) |
+| [JavaScript (Intermediate)](https://github.com/jasonvuong20032/certificate-portfolio#4-javascript-intermediate) | HackerRank | 27 Oct 2025 | [Verify](https://www.hackerrank.com/certificates/e31f1c72abbd) |
+| [JavaScript (Basic)](https://github.com/jasonvuong20032/certificate-portfolio#5-javascript-basic) | HackerRank | 25 Oct 2025 | [Verify](https://www.hackerrank.com/certificates/2911fc05a883) |
 
 ---
 
