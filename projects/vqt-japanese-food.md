@@ -79,7 +79,7 @@ flowchart LR
 
 ![Place order sequence](vqt-japanese-food/seq-1-place-order.png)
 
-The project's own documentation also includes the full ERD with every column, seven sequence diagrams and detailed use case specifications.
+Full documentation in the project repository: [ERD with every column](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/erd.md) · [seven sequence diagrams](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/sequence-diagrams.md) · [use case specifications](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/use-cases.md) · [architecture](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/architecture.md) · [admin guide](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/admin-guide.md).
 
 ---
 

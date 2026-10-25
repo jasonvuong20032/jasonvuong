@@ -4,6 +4,17 @@
 
 ---
 
+## 🔗 Quick Links
+
+| | Links |
+|---|---|
+| 🚀 **VQT Japanese Food** (featured project) | [Source code](https://github.com/jasonvuong20032/vqt-japanese-food) · [Project write-up](projects/vqt-japanese-food.md) |
+| 📚 **Project documentation** | [ERD](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/erd.md) · [Sequence diagrams](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/sequence-diagrams.md) · [Use cases](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/use-cases.md) · [Architecture](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/architecture.md) · [Admin guide](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/admin-guide.md) |
+| 🏅 **Certificate portfolio** | [All certificates with descriptions](https://github.com/jasonvuong20032/certificate-portfolio) |
+| 📜 **Certificates** | [CS50P (Harvard)](https://github.com/jasonvuong20032/certificate-portfolio#1-cs50s-introduction-to-programming-with-python-cs50p) · [SQL (Intermediate)](https://github.com/jasonvuong20032/certificate-portfolio#2-sql-intermediate) · [SQL (Basic)](https://github.com/jasonvuong20032/certificate-portfolio#3-sql-basic) · [JavaScript (Intermediate)](https://github.com/jasonvuong20032/certificate-portfolio#4-javascript-intermediate) · [JavaScript (Basic)](https://github.com/jasonvuong20032/certificate-portfolio#5-javascript-basic) |
+
+---
+
 ## 👨‍💻 About Me
 
 I'm a final-year Computing student with a strong focus on **Web Development**, especially using **.NET Framework** and modern web technologies.
