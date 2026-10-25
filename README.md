@@ -54,6 +54,46 @@ I am currently seeking an **internship, fresher, or junior role** as a **Web Dev
 
 ---
 
+## 🚀 Featured Project: VQT Japanese Food
+
+A full-stack e-commerce web application for a Japanese food store in Vietnam, rebuilt from a classic ASP.NET MVC site into a **React single-page app** on an **ASP.NET Core 9 Web API**.
+
+- Storefront: menu, accent-insensitive search in any language, cart, cash-on-delivery checkout, order tracking, customer accounts
+- Back office: revenue dashboard, order workflow with customer emails, dish and catalog management, coupons, reviews, staff roles
+- 5 languages (Vietnamese, English, Japanese, Korean, French) and 4 colour themes
+- Server-side pricing, transactional stock handling, JWT in HttpOnly cookies with rotating refresh tokens
+- 84 backend tests (xUnit) and 48 frontend tests (Vitest); ERD, sequence diagrams and use case specifications
+
+**Tech:** C# · .NET 9 · ASP.NET Core Web API · EF Core 9 · SQL Server · React 19 · TypeScript · Vite · Tailwind CSS 4 · TanStack Query · i18next · xUnit · Vitest
+
+📄 **How it works, how to run it, tech stack and diagrams:** [projects/vqt-japanese-food.md](projects/vqt-japanese-food.md)
+
+---
+
+## 💼 Experience
+
+### VQT Japanese Food · Personal full-stack project · 2026
+
+- Rebuilt a legacy ASP.NET MVC store as a React 19 + TypeScript single-page app backed by an ASP.NET Core 9 Web API, with a layered architecture (controllers → service layer → EF Core → SQL Server).
+- Designed a 24-table SQL Server database with EF Core migrations: order lines that snapshot prices, order status history, and translation tables for five languages.
+- Implemented a secure checkout: prices and totals are recalculated on the server, and stock is reserved with conditional updates inside a transaction so the last item can never be sold twice.
+- Built authentication with JWT in HttpOnly cookies, rotating refresh tokens with reuse detection, role-based access for staff and administrators, and rate limiting on sign-in and checkout.
+- Delivered a back office with a revenue dashboard, an order workflow that emails customers in their own language, dish and photo management, coupons, review moderation and staff management.
+- Wrote 84 backend tests (xUnit, in-memory SQLite) and 48 frontend tests (Vitest), plus technical documentation: ERD, sequence diagrams and use case specifications.
+
+Academic and self-built projects are listed under [Projects](#-projects) below.
+
+---
+
+## 🏅 Certifications
+
+Certificates are being added. Each entry will list the issuer, the date, a verification link and what the certificate demonstrates.
+
+| Certificate | Issuer | Date | What it demonstrates | Verify |
+|---|---|---|---|---|
+
+---
+
 ## 📂 Projects
 
 ### 🌐 Web Application using .NET Framework
