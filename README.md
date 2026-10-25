@@ -87,10 +87,10 @@ Academic and self-built projects are listed under [Projects](#-projects) below.
 
 ## 🏅 Certifications
 
-Certificates are being added. Each entry will list the issuer, the date, a verification link and what the certificate demonstrates.
+📜 **Full certificate portfolio:** [github.com/jasonvuong20032/certificate-portfolio](https://github.com/jasonvuong20032/certificate-portfolio): every certificate with what it covers, why it matters and a verification link.
 
-| Certificate | Issuer | Date | What it demonstrates | Verify |
-|---|---|---|---|---|
+| Certificate | Issuer | Date | Verify |
+|---|---|---|---|
 
 ---
 
