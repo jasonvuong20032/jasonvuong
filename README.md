@@ -66,6 +66,7 @@ A full-stack e-commerce web application for a Japanese food store in Vietnam, re
 
 **Tech:** C# · .NET 9 · ASP.NET Core Web API · EF Core 9 · SQL Server · React 19 · TypeScript · Vite · Tailwind CSS 4 · TanStack Query · i18next · xUnit · Vitest
 
+💻 **Source code:** [github.com/jasonvuong20032/vqt-japanese-food](https://github.com/jasonvuong20032/vqt-japanese-food)  
 📄 **How it works, how to run it, tech stack and diagrams:** [projects/vqt-japanese-food.md](projects/vqt-japanese-food.md)
 
 ---

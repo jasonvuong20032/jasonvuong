@@ -3,7 +3,8 @@
 A full-stack e-commerce web application for a Japanese food store in Vietnam: an online storefront for customers and a back office for the store owner and staff.
 It started as a classic ASP.NET MVC website and was rebuilt as a React single-page application on top of an ASP.NET Core Web API.
 
-**Type:** personal full-stack project · **Year:** 2026 · **Market:** Vietnam (prices in VND, cash on delivery)
+**Type:** personal full-stack project · **Year:** 2026 · **Market:** Vietnam (prices in VND, cash on delivery)  
+**Source code:** [github.com/jasonvuong20032/vqt-japanese-food](https://github.com/jasonvuong20032/vqt-japanese-food) (full documentation in its `docs/` folder)
 
 ---
 
