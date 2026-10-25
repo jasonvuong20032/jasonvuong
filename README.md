@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Vuong Quang Tuan
 
-🎓 Final-year Computing Student | 💻 Aspiring Frontend / Backend Web Developer  (.NET / Frontend / Backend)
+🎓 Computing Graduate (UK Honours Degree, 2:2) | 💼 Former Intern at FPT Software | 🔎 Seeking a .NET / Web Developer Internship
 
 ---
 
@@ -8,6 +8,7 @@
 
 | | Links |
 |---|---|
+| 💼 **Experience** | [Internship at FPT Software](#-experience) |
 | 🚀 **VQT Japanese Food** (featured project) | [Source code](https://github.com/jasonvuong20032/vqt-japanese-food) · [Project write-up](projects/vqt-japanese-food.md) |
 | 📚 **Project documentation** | [ERD](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/erd.md) · [Sequence diagrams](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/sequence-diagrams.md) · [Use cases](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/use-cases.md) · [Architecture](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/architecture.md) · [Admin guide](https://github.com/jasonvuong20032/vqt-japanese-food/blob/main/docs/admin-guide.md) |
 | 🏅 **Certificate portfolio** | [All certificates with descriptions](https://github.com/jasonvuong20032/certificate-portfolio) |
@@ -17,83 +18,99 @@
 
 ## 👨‍💻 About Me
 
-I'm a final-year Computing student with a strong focus on **Web Development**, especially using **.NET Framework** and modern web technologies.
+I'm a **Computing graduate** with a UK honours degree (**Second-Class Honours, Lower Division – 2:2**) and a strong focus on **web development with .NET**.
 
-Although I haven't completed a formal internship yet, I have solid hands-on experience through **academic projects and self-built applications**, where I worked with **frontend development**, **backend logic**, and **database-driven systems**.
+I completed an **internship at FPT Software**, where I worked on a team building an e-commerce and online-auction platform as **.NET 8 microservices**. I was the main developer of the **User Service** (authentication, roles and privileges, seller verification and a reputation system) and also contributed to the **Commerce** and **Auction** services.
 
-My academic result is **Third-Class Honours**, but I strongly believe that **practical skills, consistency, and problem-solving ability** matter more in real-world software development.  
-I am currently seeking an **internship, fresher, or junior role** as a **Web Developer**, where I can continue learning and contribute to real projects.
+Outside of work I build full-stack projects, such as [VQT Japanese Food](#-featured-project-vqt-japanese-food) (ASP.NET Core + React), and verify my skills with certificates from Harvard's CS50 and HackerRank.
+
+I'm now looking for my **next internship** as a **.NET backend or full-stack web developer**, where I can keep learning and contribute to real products.
 
 ---
 
 ## 🎯 Career Objective
 
-- Web Developer (.NET)
-- Backend Web Developer
-- Frontend Web Developer
-- Open to Internship / Fresher / Junior positions
+- .NET Backend Developer Intern
+- Full-stack Web Developer Intern (.NET + React)
+- Open to **internship** positions
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Programming Languages
-- C# (.NET Framework)
+- C#
+- JavaScript (ES6+) / TypeScript
+- SQL
 - Python
-- JavaScript (ES6+)
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
 
 ### Backend
-- .NET Framework (ASP.NET MVC / Web Forms)
-- RESTful API (basic)
-- Server-side rendering
+- ASP.NET Core Web API (.NET 8 / .NET 9), ASP.NET MVC
+- Entity Framework Core (code-first migrations)
+- REST APIs, gRPC, SignalR (real-time)
+- Microservices and event-driven messaging: RabbitMQ (MassTransit), transactional outbox pattern
+- Authentication and authorisation: JWT, role- and privilege-based access control (RBAC)
+- Redis caching
+
+### Frontend
+- React, TypeScript, Vite
+- Tailwind CSS, HTML5, CSS3, responsive web design
+- TanStack Query, i18next (multilingual UI)
 
 ### Database
-- SQL Server
-- Basic database design & queries
+- SQL Server: schema design, relationships, migrations, reporting queries
+
+### Testing & Quality
+- xUnit, Moq, integration tests against a real SQL Server
+- Vitest
+- SonarQube, code coverage
 
 ### Tools & Environment
-- Visual Studio
-- Git & GitHub
-- Postman
-- VS Code
-
----
-
-## 🚀 Featured Project: VQT Japanese Food
-
-A full-stack e-commerce web application for a Japanese food store in Vietnam, rebuilt from a classic ASP.NET MVC site into a **React single-page app** on an **ASP.NET Core 9 Web API**.
-
-- Storefront: menu, accent-insensitive search in any language, cart, cash-on-delivery checkout, order tracking, customer accounts
-- Back office: revenue dashboard, order workflow with customer emails, dish and catalog management, coupons, reviews, staff roles
-- 5 languages (Vietnamese, English, Japanese, Korean, French) and 4 colour themes
-- Server-side pricing, transactional stock handling, JWT in HttpOnly cookies with rotating refresh tokens
-- 84 backend tests (xUnit) and 48 frontend tests (Vitest); ERD, sequence diagrams and use case specifications
-
-**Tech:** C# · .NET 9 · ASP.NET Core Web API · EF Core 9 · SQL Server · React 19 · TypeScript · Vite · Tailwind CSS 4 · TanStack Query · i18next · xUnit · Vitest
-
-💻 **Source code:** [github.com/jasonvuong20032/vqt-japanese-food](https://github.com/jasonvuong20032/vqt-japanese-food)  
-📄 **How it works, how to run it, tech stack and diagrams:** [projects/vqt-japanese-food.md](projects/vqt-japanese-food.md)
+- Docker, Docker Compose
+- Git, GitHub, GitLab (merge-request workflow)
+- Visual Studio, VS Code, Postman
 
 ---
 
 ## 💼 Experience
 
-### VQT Japanese Food · Personal full-stack project · 2026
+### Intern · FPT Software · Jun 2026 – Aug 2026
 
-- Rebuilt a legacy ASP.NET MVC store as a React 19 + TypeScript single-page app backed by an ASP.NET Core 9 Web API, with a layered architecture (controllers → service layer → EF Core → SQL Server).
-- Designed a 24-table SQL Server database with EF Core migrations: order lines that snapshot prices, order status history, and translation tables for five languages.
-- Implemented a secure checkout: prices and totals are recalculated on the server, and stock is reserved with conditional updates inside a transaction so the last item can never be sold twice.
-- Built authentication with JWT in HttpOnly cookies, rotating refresh tokens with reuse detection, role-based access for staff and administrators, and rate limiting on sign-in and checkout.
-- Delivered a back office with a revenue dashboard, an order workflow that emails customers in their own language, dish and photo management, coupons, review moderation and staff management.
-- Wrote 84 backend tests (xUnit, in-memory SQLite) and 48 frontend tests (Vitest), plus technical documentation: ERD, sequence diagrams and use case specifications.
+**Team project:** an e-commerce and online-auction marketplace built as **.NET 8 microservices** (user, catalog, commerce, auction, fulfilment and notification services behind an API gateway).
+**Tech:** ASP.NET Core 8 · EF Core 8 · SQL Server · Redis · RabbitMQ (MassTransit) · gRPC · SignalR · Docker · xUnit · SonarQube · GitLab
 
-Academic and self-built projects are listed under [Projects](#-projects) below.
+**User Service** (main developer)
+- Built authentication and authorisation: JWT with a token blacklist, a privilege catalog with role–privilege management endpoints, admin user-management and audit-log APIs, and login rate limiting scoped to IP address and account.
+- Implemented seller registration with KYC as a state machine, and Vietnamese citizen-ID (CCCD) identity verification with an admin review workflow and concurrency control.
+- Rewrote the reputation system in five phases: a scoring formula engine, one-time verification and seller-approval bonuses, a ratings pipeline with weekly aggregation, inactivity decay, and cross-service events that award or penalise reputation.
+- Connected the service to the rest of the platform with the transactional outbox pattern, RabbitMQ consumers with dead-lettering, and a gRPC API that exposes user and reputation snapshots to other services.
+- Raised test coverage with unit tests (for example the authentication service from 0% to about 90%, and the infrastructure layer from 0% to 89%) and added integration tests against a real SQL Server to prove idempotency.
+
+**Commerce Service**
+- Implemented the cart APIs and price calculation, checkout-to-order creation with order-management APIs and RBAC, inventory reservation through the outbox pattern and gRPC, and an idempotent payment-callback handler with cancel and refund.
+
+**Auction Service**
+- Built the auction lifecycle API and state machine, the place-bid API with optimistic concurrency, real-time bidding with SignalR, payment deadlines and payment synchronisation, and a reputation-based bidding eligibility check with caching and a resilience fallback.
+
+**Way of working:** feature branches and GitLab merge requests into a shared `develop` branch, API contracts agreed in shared design documents, services run together locally with Docker Compose.
+
+---
+
+## 🚀 Featured Project: VQT Japanese Food
+
+A full-stack e-commerce web application for a Japanese food store in Vietnam, rebuilt from a classic ASP.NET MVC site into a **React single-page app** on an **ASP.NET Core 9 Web API** (personal project, 2026).
+
+- Layered architecture (controllers → service layer → EF Core → SQL Server) with a 24-table database: order lines that snapshot prices, order status history, and translation tables for five languages.
+- Secure checkout: prices and totals are recalculated on the server, and stock is reserved with conditional updates inside a transaction so the last item can never be sold twice.
+- Authentication with JWT in HttpOnly cookies, rotating refresh tokens with reuse detection, role-based access for staff and administrators, and rate limiting on sign-in and checkout.
+- Back office with a revenue dashboard, an order workflow that emails customers in their own language, dish and photo management, coupons, review moderation and staff management.
+- 5 languages (Vietnamese, English, Japanese, Korean, French) and 4 colour themes.
+- 84 backend tests (xUnit) and 48 frontend tests (Vitest), plus documentation: ERD, sequence diagrams and use case specifications.
+
+**Tech:** C# · .NET 9 · ASP.NET Core Web API · EF Core 9 · SQL Server · React 19 · TypeScript · Vite · Tailwind CSS 4 · TanStack Query · i18next · xUnit · Vitest
+
+💻 **Source code:** [github.com/jasonvuong20032/vqt-japanese-food](https://github.com/jasonvuong20032/vqt-japanese-food)  
+📄 **How it works, how to run it, tech stack and diagrams:** [projects/vqt-japanese-food.md](projects/vqt-japanese-food.md)
 
 ---
 
@@ -111,7 +128,7 @@ Academic and self-built projects are listed under [Projects](#-projects) below.
 
 ---
 
-## 📂 Projects
+## 📂 Other Projects
 
 ### 🌐 Web Application using .NET Framework
 **Tech:** ASP.NET MVC, C#, SQL Server, HTML, CSS, JavaScript  
@@ -134,8 +151,8 @@ Academic and self-built projects are listed under [Projects](#-projects) below.
 
 ## 📚 Currently Learning
 
-- ASP.NET Core (transition from .NET Framework)
-- Modern JavaScript patterns
+- Microservice architecture and distributed-system patterns
+- Modern JavaScript / TypeScript patterns
 - Web security fundamentals
 - Clean architecture & best practices
 
@@ -152,8 +169,8 @@ Academic and self-built projects are listed under [Projects](#-projects) below.
 
 ## 📫 Contact Me
 
-- GitHub: https://github.com/jasonvuong20032
-- Email: [jasonvuong1512@gmail.com]
+- GitHub: [github.com/jasonvuong20032](https://github.com/jasonvuong20032)
+- Email: [jasonvuong1512@gmail.com](mailto:jasonvuong1512@gmail.com)
 
 ---
 
